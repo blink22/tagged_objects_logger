@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/Truncourist/tagged_objects_logger.svg?branch=master)](https://travis-ci.com/Truncourist/tagged_objects_logger)
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/Truncourist/tagged_objects_logger)
+
 # TaggedObjectsLogger
 
 Welcome to TaggedObjectsLogger Gem. This gem is created for the reason of logging error, warning, info, bug and unknown messages in a custom format. All gem methods inherited from Ruby logger.
@@ -44,7 +47,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the TaggedObjectsLogger project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/Truncourist/tagged_objects_logger/blob/master/CODE_OF_CONDUCT.md).
-
-[![Build Status](https://travis-ci.com/Truncourist/tagged_objects_logger.svg?branch=master)](https://travis-ci.com/Truncourist/tagged_objects_logger)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/Truncourist/tagged_objects_logger)
+Everyone interacting in the TaggedObjectsLogger project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/blink22/tagged_objects_logger/blob/master/CODE_OF_CONDUCT.md).
