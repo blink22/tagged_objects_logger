@@ -20,7 +20,7 @@ Or install it yourself as:
 
 And then add this line to your environment configuration file:
 ```ruby
-config.logger = TaggedObjectsLogger.instance
+config.logger = TaggedLogger.instance
 ```
 
 ## Usage
