@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Tagged Objects Logger'
   spec.description   = 'A simple Logger, that logs objects error tagged
                         with their class name and IDs'
-  spec.homepage      = 'https://github.com/Truncourist/tagged_logger'
+  spec.homepage      = 'https://github.com/Truncourist/tagged_objects_logger'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
@@ -35,5 +35,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop'
 end
