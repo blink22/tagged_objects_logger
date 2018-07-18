@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/blink22/tagged_objects_logger.svg?branch=master)](https://travis-ci.com/blink22/tagged_objects_logger)
+[![Build Status](https://travis-ci.org/blink22/tagged_objects_logger.svg?branch=master)](https://travis-ci.org/blink22/tagged_objects_logger)
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/blink22/tagged_objects_logger)
 
 # TaggedObjectsLogger
