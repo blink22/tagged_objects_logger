@@ -1,8 +1,8 @@
 RSpec.describe TaggedObjectsLogger do
   # (:all) to delete logging file after all tests end
-  after(:all) do
-    File.delete('development.log') if File.exist?('development.log')
-  end
+  # after(:all) do
+  #   File.delete('development.log') if File.exist?('development.log')
+  # end
 
   let(:logger) { TaggedLogger.new('development.log') }
   let(:error_message) { FactoryBot.build(:error_message) }

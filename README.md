@@ -30,6 +30,23 @@ config.logger = TaggedLogger.instance
 
 After configuring environment logger variable with TaggedLogger instance you can use This gem to log errors, info, bugs, warning, unknown messages and fatal errors.
 This gem tags object by its class name and ID in the log file.
+Log file created in log/[Rails environment].log.
+Log path could be customized by passing log path while intializing TaggedLogger instance ex: TaggedLogger.instance(Log_file_path)
+An Example of Log file content:
+```
+# Logfile created on 2018-07-18 14:59:55 +0200 by logger.rb/61378
+I, [2018-07-18T14:59:55.698298 #20025]  INFO -- : [TestObject_13]: [TestObject_14]: [TestObject_15]: This is My Info Message
+
+E, [2018-07-18T14:59:55.700376 #20025] ERROR -- : [TestObject_16]: [TestObject_17]: [TestObject_18]: This is My Error Message
+
+D, [2018-07-18T14:59:55.704728 #20025] DEBUG -- : [TestObject_19]: [TestObject_20]: [TestObject_21]: This is My Debug Message
+
+F, [2018-07-18T14:59:55.706860 #20025] FATAL -- : [TestObject_22]: [TestObject_23]: [TestObject_24]: This is a Fatal error
+
+A, [2018-07-18T14:59:55.708679 #20025]   ANY -- : [TestObject_25]: [TestObject_26]: [TestObject_27]: This is unknown message
+
+W, [2018-07-18T14:59:55.710540 #20025]  WARN -- : [TestObject_28]: [TestObject_29]: [TestObject_30]: This is just a warning
+```
 
 ## Development
 
