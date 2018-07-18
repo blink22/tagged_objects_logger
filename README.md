@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/Truncourist/tagged_objects_logger.svg?branch=master)](https://travis-ci.com/Truncourist/tagged_objects_logger)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/Truncourist/tagged_objects_logger)
+[![Build Status](https://travis-ci.com/blink22/tagged_objects_logger.svg?branch=master)](https://travis-ci.com/blink22/tagged_objects_logger)
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/blink22/tagged_objects_logger)
 
 # TaggedObjectsLogger
 
@@ -56,7 +56,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Truncourist/tagged_objects_logger. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/blink22/tagged_objects_logger. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
