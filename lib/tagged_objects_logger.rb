@@ -42,6 +42,7 @@ class TaggedLogger < Logger
 
   def logging_message(message, objects_list)
     return nil if message.nil? || objects_list.nil?
+    return nil unless message.is_a? String
     parse_message(message, tags(objects_list))
   end
 
