@@ -2,8 +2,9 @@
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/Truncourist/tagged_objects_logger)
 
 # TaggedObjectsLogger
+By [Blink22](http://www.blink22.com/).
 
-Welcome to TaggedObjectsLogger Gem. This gem is created for the reason of logging error, warning, info, bug and unknown messages in a custom format. All gem methods inherited from Ruby logger.
+TaggedObjectsLogger is a flexible logging solution for Rails based on the Ruby logger. It extends the functionality of the logger by adding the ability to log errors, warnings, info, bugs and unknown messages in a custom format efficiently and easily.
 
 ## Installation
 
