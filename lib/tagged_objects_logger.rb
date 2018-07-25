@@ -42,7 +42,6 @@ class TaggedLogger < Logger
 
   def logging_message(message, objects_list)
     return nil if message.nil? || objects_list.nil?
-    return nil unless message.is_a? String
     parse_message(message, tags(objects_list))
   end
 
@@ -57,7 +56,7 @@ class TaggedLogger < Logger
 
   def parse_message(message, tags)
     tagged_message = ''
-    message_lines = message.split("\n")
+    message_lines = message.to_s.split("\n")
     message_lines.each do |line|
       tagged_message += (tags + line + "\n")
     end

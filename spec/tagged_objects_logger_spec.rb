@@ -92,6 +92,6 @@ RSpec.describe TaggedObjectsLogger do
   end
 
   it 'logs message of non string type' do
-    expect(logger.info(info_message.to_json)).to be true
+    expect(logger.info(info_message)).to be true
   end
 end
