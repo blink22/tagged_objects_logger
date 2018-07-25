@@ -86,4 +86,17 @@ RSpec.describe TaggedObjectsLogger do
     expect(logger.warn(warn_message.message,
                        *FactoryBot.build_list(:test_object, 3))).to be true
   end
+
+  it 'logs empty list of objects' do
+    expect(logger.info(info_message.message)).to be true
+  end
+
+  it 'logs message of non string type' do
+    expect(logger.info(info_message)).to be true
+  end
+
+  it 'logs objects don\'t have ID attribute' do
+    expect(logger.info(info_message.message, {:name => 'Object without ID'})).to be true
+
+  end
 end

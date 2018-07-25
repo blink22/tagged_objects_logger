@@ -48,7 +48,7 @@ class TaggedLogger < Logger
   def tags(objects_list)
     tags = ''
     objects_list.each do |object|
-      next if object.nil?
+      next if object.nil? || !object.try(:id)
       tags += "[#{object.class}_#{object.id}]: "
     end
     tags
@@ -56,7 +56,7 @@ class TaggedLogger < Logger
 
   def parse_message(message, tags)
     tagged_message = ''
-    message_lines = message.split("\n")
+    message_lines = message.to_s.split("\n")
     message_lines.each do |line|
       tagged_message += (tags + line + "\n")
     end
