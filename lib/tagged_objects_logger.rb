@@ -48,7 +48,7 @@ class TaggedLogger < Logger
   def tags(objects_list)
     tags = ''
     objects_list.each do |object|
-      next if object.nil?
+      next if object.nil? || !object.try(:id)
       tags += "[#{object.class}_#{object.id}]: "
     end
     tags

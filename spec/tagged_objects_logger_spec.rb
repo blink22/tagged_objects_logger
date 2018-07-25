@@ -94,4 +94,9 @@ RSpec.describe TaggedObjectsLogger do
   it 'logs message of non string type' do
     expect(logger.info(info_message)).to be true
   end
+
+  it 'logs objects don\'t have ID attribute' do
+    expect(logger.info(info_message.message, {:name => 'Object without ID'})).to be true
+
+  end
 end
