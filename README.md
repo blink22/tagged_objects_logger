@@ -73,11 +73,11 @@ Assume this message:
 ```
 F, [2018-07-18T14:59:55.706860 #20025] FATAL -- : [TestObject_22]: [TestObject_23]: [TestObject_24]: This is a Fatal error
 ```
-__F__: A character refer to the type of message, here it refers to Fatal error message
-__2018-07-18T14:59:55.706860 \#20025__: Date and time of the generated message
-__FATAL__: Type of message
-__[TestObject_22]: [TestObject_23]: [TestObject_24]__: the tagged objects, every object written in this form [ClassName_ObjectID]
-__This is a Fatal error__: Text message. Message may include multiple lines
+__F__: A character refer to the type of message, here it refers to Fatal error message  
+__2018-07-18T14:59:55.706860 \#20025__: Date and time of the generated message  
+__FATAL__: Type of message  
+__[TestObject_22]: [TestObject_23]: [TestObject_24]__: the tagged objects, every object written in this form [ClassName_ObjectID]  
+__This is a Fatal error__: Text message. Message may include multiple lines  
 
 ## Development
 
